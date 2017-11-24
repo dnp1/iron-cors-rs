@@ -11,8 +11,8 @@ description = "A CORS middleware implementation for Iron."
 
 [dependencies]
 log = "0.3"
-iron = "0.5"
+iron = "0.6"
 
 [dev-dependencies]
-iron-test = "0.5.0"
+iron-test = {git="https://github.com/ernestas-poskus/iron-test", branch="features/bump_crates"}
 unicase = "1.4.0"
